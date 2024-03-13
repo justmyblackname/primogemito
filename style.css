@@ -1,0 +1,613 @@
+html,body{ height: 100%; font-family: 'Futura'; font-style: normal;}
+body{background: #1B1B1B; position: relative; margin: 0; min-width: 100vh;}
+hr{width: 92%;}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('Bebas-Regular.ttf') format('truetype');;
+ }
+
+/*----------------------------
+Header
+----------------------------*/
+
+.header
+{position: relative;
+width: 100%;
+height: 7%;
+left: 0px;
+top: 0px;
+
+background: #F1FF12;}
+
+.header_line_sx
+{position: absolute;
+width: 37%;
+height: 3%;
+left: 2%;
+top: 50%;
+background: #000000;}
+
+.header_line_dx
+{position: absolute;
+width: 37%;
+height: 3%;
+right: 2%;
+top: 50%;
+background: #000000;}
+
+.header_logoesteso{
+    position: absolute;
+    display: inline-block;
+    width: 18%;
+    height: 100%;
+    left: 41%;
+
+    background-image: url(img/logoesteso.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+ 
+ }
+
+
+/*----------------------------
+Copertina
+----------------------------*/
+
+ .copertina{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    background-image: url(img/copertina.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: top center;
+ 
+ }
+
+ /*----------------------------
+Box Storia
+----------------------------*/
+
+.box_storia{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50%;
+ }
+
+ .box_storia_sx{
+    position: absolute;
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    left: 0px;
+
+
+ }
+
+ .box_storia_dx{
+    position: absolute;
+    display: inline-block;
+    width: 67%;
+    height: 100%;
+    right: 0px;
+
+
+ }
+
+ .box_storia_sx_foto{
+    position: absolute;
+    display:block;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+
+    background-image: url(img/foto_storia.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+ 
+ }
+
+
+ /*----------------------------
+Box Evento
+----------------------------*/
+.box_evento{
+    position: relative;
+    display: block;
+    width: 94%;
+    height: 95%;
+    margin: 3%;
+
+    background-color: #131313;
+    border-radius: 50px;
+
+ }
+
+ .box_datievento{
+    position: absolute;
+    display: inline-block;
+    width:80%;
+    height: 73%;
+    margin: 5%;
+    margin-left: 10%;
+    left:0px;
+
+
+ }
+
+ .logo_luogo{
+    position: relative;
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 1%;
+
+ 
+    background-image: url(img/luogo.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+
+ }
+
+ .logo_quando{
+    position: relative;
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 1%;
+
+ 
+    background-image: url(img/quando.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+
+ }
+
+ .logo_persone{
+    position: relative;
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 1%;
+
+ 
+    background-image: url(img/persone.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+
+ }
+
+ .logo_prezzo{
+    position: relative;
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 1%;
+
+ 
+    background-image: url(img/prezzo.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+
+ }
+
+ .prossimoevento_up{
+    position: absolute;
+    display:inline-block;
+    width: 30%;
+    height: 30%;
+    margin-top: 4%;
+    right: 0px;
+
+
+
+    background-image: url(img/prossimo_evento.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+
+ }
+
+ .prossimoevento_down{
+    position: absolute;
+    display:inline-block;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 4%;
+    left: 0px;
+    bottom: 0px;
+
+
+
+    background-image: url(img/prossimo_evento.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+    transform : rotate(180deg);
+
+ }
+
+ .box [type="submit"][value="COMPILA IL FORM"]{
+    position: absolute;
+    font-family: 'bebas';
+    font-style: normal;
+    font-size: 32px;
+
+
+    width: auto;
+    height: 60px;
+    margin-bottom: 4%;
+    margin-left: 40%;
+    bottom: 0px;
+    padding-left: 4%;
+    padding-right: 4%;
+
+    border: 0;
+
+
+    text-align: center; 
+    background: #e62799;
+    outline: none; 
+    color: #1b1b1b; 
+    border-radius: 50px; 
+    cursor: pointer;
+    }
+
+    .box [type="submit"][value="COMPILA IL FORM"]:hover{
+        background: #e62799;
+        color: #F1FF12; 
+        cursor: pointer;
+        }
+
+
+ /*----------------------------
+Box Contatti
+----------------------------*/
+.box_contatti{
+    position: relative;
+    display: block;
+    width: 94%;
+    height: 15%;
+    margin: 3%;
+
+ }
+
+ .contatto{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+ }
+ .divisore{
+    position: relative;
+    display: inline-block;
+    width: 3%;
+    height: 100%;
+    margin-right: 8%;
+ }
+
+ .contatto_logo_instagram{
+    position: absolute;
+    display:inline-block;
+    width: 30%;
+    height: 90%;
+    top: 5%;
+    left: 0px;
+
+    background-image: url(img/logoinstagram.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+ }
+
+ .contatto_logo_telegram{
+    position: absolute;
+    display:inline-block;
+    width: 30%;
+    height: 90%;
+    top: 5%;
+    left: 0px;
+
+    background-image: url(img/logotelegram.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+ }
+
+ .contatto_logo_mail{
+    position: absolute;
+    display:inline-block;
+    width: 30%;
+    height: 90%;
+    top: 5%;
+    left: 0px;
+
+    background-image: url(img/logomail.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+ }
+
+ .contatto_scritta_instragram{
+    position: absolute;
+    display:inline-block;
+    width: 60%;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 5%;
+
+    background-image: url(img/scritta_instagram.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+ }
+
+ .contatto_scritta_telegram{
+    position: absolute;
+    display:inline-block;
+    width: 60%;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 5%;
+
+    background-image: url(img/scritta_telegram.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+ }
+
+ .contatto_scritta_mail{
+    position: absolute;
+    display:inline-block;
+    width: 60%;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 5%;
+
+    background-image: url(img/scritta_mail.png);
+    background-size:contain;
+    -o-background-size: cover;
+    background-repeat:no-repeat ;
+    -moz-background-size: cover;
+    background-position: center center;
+ }
+
+
+ .box [type="submit"][value="follow"]{
+    position: absolute;
+    display:inline-block;
+    font-family: 'bebas';
+    font-style: normal;
+    font-size: 20px;
+
+
+    width: auto;
+    height: 30px;
+    margin-left: 48%;
+    margin-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    border: 0;
+
+
+    text-align: center; 
+    background: #209bff;
+    outline: none; 
+    color: #ffffff; 
+    border-radius: 50px; 
+    cursor: pointer;
+    }
+
+
+ .box [type="submit"][value="send"]{
+    position: absolute;
+    display:inline-block;
+    font-family: 'bebas';
+    font-style: normal;
+    font-size: 20px;
+
+
+    width: auto;
+    height: 30px;
+    margin-left: 50%;
+    margin-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    border: 0;
+
+
+    text-align: center; 
+    background: #209bff;
+    outline: none; 
+    color: #ffffff; 
+    border-radius: 50px; 
+    cursor: pointer;
+    }
+
+
+  /*----------------------------
+Testo
+----------------------------*/
+.h1_storia{
+    font-family: 'helvetica';
+    font-style: normal;
+    font-size: 25px;
+    text-align: justify;
+ 
+    margin-bottom: 4%;
+    margin-top: 4%;
+    margin-right: 5%;
+    margin-left: 0px;
+ 
+    
+    color: #ffffff;
+     
+ }
+ 
+ 
+ 
+  .h1_datievento{
+     font-family: 'bebas';
+     font-style: normal;
+     font-size: 28px;
+     text-align: justify;
+     line-height: 150%;
+  
+     margin-bottom: 4%;
+     margin-top: 0px;
+     margin-right: 5%;
+     margin-left: 0px;
+  
+     
+     color: #ffffff;  
+  }
+  .h1_infoevento{
+     font-family: 'helvetica';
+     font-style: normal;
+     font-size: 20px;
+     text-align: justify;
+     line-height: 130%;
+  
+     margin-bottom: 4%;
+     margin-top: 0px;
+     margin-right: 5%;
+     margin-left: 0px;
+  
+     
+     color: #ffffff;
+      
+  }
+
+
+  /*----------------------------
+Screen
+----------------------------*/
+
+
+ @media screen and (max-width: 500px) {    
+     .h1_storia {
+    font-size: 16px;    }
+    .h1_infoevento {
+        font-size: 12px;    }
+    .box [type="submit"][value="COMPILA IL FORM"] {
+        font-size: 15px;    }
+    
+}
+@media screen and (max-width: 768px) {    
+    .h1_storia {
+   font-size: 17px;    }
+   .h1_infoevento {
+    font-size: 13px;    }
+    .box [type="submit"][value="COMPILA IL FORM"] {
+        font-size: 16px;    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {    
+    .h1_storia {
+    font-size: 18px;    }
+    .h1_infoevento {
+        font-size: 14px;    }
+    .box [type="submit"][value="COMPILA IL FORM"] {
+        font-size: 17px;    }    
+}
+@media screen and (min-width: 1024px) {    
+    .h1_storia {
+    font-size: 19px;    }
+    .h1_infoevento {
+        font-size: 15px;    }
+    .box [type="submit"][value="COMPILA IL FORM"] {
+        font-size: 19px;    }
+}
+@media screen and (min-width: 1080px) {    
+    .h1_storia {
+    font-size: 20px;    }
+    .h1_infoevento {
+        font-size: 16px;    }
+    .box [type="submit"][value="COMPILA IL FORM"] {
+        font-size: 21px;    }
+}
+@media screen and (min-width: 1200px) {    
+    .h1_storia {
+    font-size: 22px;    }
+    .h1_infoevento {
+        font-size: 17px;    }
+    .box [type="submit"][value="COMPILA IL FORM"] {
+        font-size: 22px;    }
+}
+@media screen and (min-width: 1400px) {    
+    .h1_storia {
+    font-size: 24px;    }
+    .h1_infoevento {
+        font-size: 19px;    }
+    .box [type="submit"][value="COMPILA IL FORM"] {
+        font-size: 24px;    }
+}
+@media screen and (min-width: 1600px) {    
+    .h1_storia {
+    font-size: 28px;    }
+    .h1_infoevento {
+        font-size: 23px;    }
+    .box [type="submit"][value="COMPILA IL FORM"] {
+        font-size: 26px;    }
+}
+@media screen and (min-width: 1800px) {    
+    .h1_storia {
+    font-size: 31px;    }
+    .h1_infoevento {
+        font-size: 23px;    }
+    .box [type="submit"][value="COMPILA IL FORM"] {
+        font-size: 28px;    }
+}
+@media screen and (min-width: 1920px) {    
+    .h1_storia {
+    font-size: 32px;    }
+    .h1_infoevento {
+        font-size: 29px;    }
+    .box [type="submit"][value="COMPILA IL FORM"] {
+        font-size: 30px;    }
+}
+
+
+
