@@ -637,7 +637,7 @@ Box Storia
 ----------------------------*/
 
 .box_storia{
-    height: 90%;
+    height: 110%;
  }
 
  .box_storia_sx{
@@ -653,7 +653,7 @@ Box Storia
 Box Evento
 ----------------------------*/
 .box_evento{
-    height: 170%;
+    height: 190%;
  }
 
  .box_datievento{
@@ -681,12 +681,12 @@ Box Evento
  }
 
  .prossimoevento_up{
-    margin-top: -11%;
+    margin-top: -13%;
     margin-right: 3%;
  }
 
  .prossimoevento_down{
-   margin-bottom: -11%;
+   margin-bottom: -13%;
    margin-left: 3%;
  }
 
@@ -738,7 +738,7 @@ Box Contatti
  .divisore{
     position: relative;
     display: inline-block;
-    width: 3%;
+    width: 1%;
     height: 100%;
     margin-right: 8%;
  }
@@ -792,105 +792,34 @@ Box Contatti
  }
 
  .contatto_scritta_instragram{
-    position: absolute;
-    display:inline-block;
-    width: 60%;
-    height: 20%;
-    margin-left: 30%;
-    margin-top: 5%;
-
-    background-image: url(img/scritta_instagram.png);
-    background-size:contain;
-    -o-background-size: cover;
-    background-repeat:no-repeat ;
-    -moz-background-size: cover;
-    background-position: center center;
+   width: 80%;
+   height: 30%;
+   margin-left: 30%;
+   margin-top: 10%;
  }
 
  .contatto_scritta_telegram{
-    position: absolute;
-    display:inline-block;
-    width: 60%;
-    height: 20%;
-    margin-left: 30%;
-    margin-top: 5%;
-
-    background-image: url(img/scritta_telegram.png);
-    background-size:contain;
-    -o-background-size: cover;
-    background-repeat:no-repeat ;
-    -moz-background-size: cover;
-    background-position: center center;
+   width: 80%;
+   height: 30%;
+   margin-left: 30%;
+   margin-top: 10%;
  }
 
  .contatto_scritta_mail{
-    position: absolute;
-    display:inline-block;
-    width: 60%;
-    height: 20%;
-    margin-left: 30%;
-    margin-top: 5%;
-
-    background-image: url(img/scritta_mail.png);
-    background-size:contain;
-    -o-background-size: cover;
-    background-repeat:no-repeat ;
-    -moz-background-size: cover;
-    background-position: center center;
+   width: 80%;
+   height: 30%;
+   margin-left: 30%;
+   margin-top: 10%;
  }
 
 
  .box [type="submit"][value="follow"]{
-    position: absolute;
-    display:inline-block;
-    font-family: 'bebas';
-    font-style: normal;
-    font-size: 20px;
-
-
-    width: auto;
-    height: 30px;
-    margin-left: 48%;
-    margin-top: 15%;
-    padding-left: 5%;
-    padding-right: 5%;
-
-    border: 0;
-
-
-    text-align: center; 
-    background: #209bff;
-    outline: none; 
-    color: #ffffff; 
-    border-radius: 50px; 
-    cursor: pointer;
+   margin-top: 30%;
     }
 
 
  .box [type="submit"][value="send"]{
-    position: absolute;
-    display:inline-block;
-    font-family: 'bebas';
-    font-style: normal;
-    font-size: 20px;
-
-
-    width: auto;
-    height: 30px;
-    margin-left: 50%;
-    margin-top: 15%;
-    padding-left: 5%;
-    padding-right: 5%;
-
-    border: 0;
-
-
-    text-align: center; 
-    background: #209bff;
-    outline: none; 
-    color: #ffffff; 
-    border-radius: 50px; 
-    cursor: pointer;
+   margin-top: 30%;
     }
 
 
