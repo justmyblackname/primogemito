@@ -637,7 +637,7 @@ Box Storia
 ----------------------------*/
 
 .box_storia{
-    height: 110%;
+    height: 130%;
  }
 
  .box_storia_sx{
@@ -653,7 +653,7 @@ Box Storia
 Box Evento
 ----------------------------*/
 .box_evento{
-    height: 190%;
+    height: 210%;
  }
 
  .box_datievento{
@@ -845,7 +845,7 @@ Testo
  
  
   .h1_datievento{
-     font-size: 35px;
+     font-size: 32px;
   }
   .h1_infoevento{
      font-size: 30px;
