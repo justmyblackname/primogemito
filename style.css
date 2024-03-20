@@ -617,7 +617,7 @@ Header
 
 .header
 {position: relative;
-height: 15%;
+height: 10%;
 }
 
 .header_line_sx
@@ -632,16 +632,28 @@ height: 15%;
     left: 20%; 
  }
 
+/*----------------------------
+Copertina
+----------------------------*/
+
+.copertina{
+   position: relative;
+   display: block;
+   width: 100%;
+   height: 40%;
+
+}
+
  /*----------------------------
 Box Storia
 ----------------------------*/
 
 .box_storia{
-    height: 130%;
+    height: 120%;
  }
 
  .box_storia_sx{
-   visibility:collapse;
+visibility: hidden;
  }
 
  .box_storia_dx{
@@ -653,7 +665,7 @@ Box Storia
 Box Evento
 ----------------------------*/
 .box_evento{
-    height: 210%;
+    height: 140%;
  }
 
  .box_datievento{
@@ -661,32 +673,32 @@ Box Evento
  }
 
  .logo_luogo{
-   width: 35px;
-   height: 35px;
+   width: 25px;
+   height: 25px;
  }
 
  .logo_quando{
-   width: 35px;
-   height: 35px;
+   width: 25px;
+   height: 25px;
  }
 
  .logo_persone{
-   width: 35px;
-   height: 35px;
+   width: 25px;
+   height: 25px;
  }
 
  .logo_prezzo{
-    width: 35px;
-    height: 35px;
+   width: 25px;
+   height: 25px;
  }
 
  .prossimoevento_up{
-    margin-top: -13%;
+    margin-top: -33%;
     margin-right: 3%;
  }
 
  .prossimoevento_down{
-   margin-bottom: -13%;
+   margin-bottom: -33%;
    margin-left: 3%;
  }
 
@@ -694,13 +706,13 @@ Box Evento
     position: absolute;
     font-family: 'bebas';
     font-style: normal;
-    font-size: 32px;
+    font-size: 25px;
 
 
-    width: auto;
-    height: 60px;
+    width: 50%;
+    height: 5%;
     margin-bottom: 15%;
-    margin-left: 35%;
+    margin-left: 25%;
     bottom: 0px;
     padding-left: 4%;
     padding-right: 4%;
@@ -746,8 +758,7 @@ Box Contatti
  .contatto_logo_instagram{
     position: absolute;
     display:inline-block;
-    width: 30%;
-    height: 90%;
+    width: 45%;
     top: 5%;
     left: 0px;
 
@@ -762,8 +773,7 @@ Box Contatti
  .contatto_logo_telegram{
     position: absolute;
     display:inline-block;
-    width: 30%;
-    height: 90%;
+    width: 45%;
     top: 5%;
     left: 0px;
 
@@ -778,8 +788,7 @@ Box Contatti
  .contatto_logo_mail{
     position: absolute;
     display:inline-block;
-    width: 30%;
-    height: 90%;
+    width: 45%;
     top: 5%;
     left: 0px;
 
@@ -792,35 +801,76 @@ Box Contatti
  }
 
  .contatto_scritta_instragram{
-   width: 80%;
-   height: 30%;
-   margin-left: 30%;
-   margin-top: 10%;
+   width: 100%;
+   margin-left: 40%;
+   margin-top: 35%;
  }
 
  .contatto_scritta_telegram{
-   width: 80%;
-   height: 30%;
-   margin-left: 30%;
-   margin-top: 10%;
+   width: 100%;
+   margin-left: 40%;
+   margin-top: 35%;
  }
 
  .contatto_scritta_mail{
-   width: 80%;
-   height: 30%;
-   margin-left: 30%;
-   margin-top: 10%;
+   width: 100%;
+   margin-left: 35%;
+   margin-top: 35%;
  }
 
 
  .box [type="submit"][value="follow"]{
-   margin-top: 30%;
-    }
+   position: absolute;
+   display:inline-block;
+   font-family: 'bebas';
+   font-style: normal;
+   font-size: 15px;
 
 
- .box [type="submit"][value="send"]{
-   margin-top: 30%;
-    }
+   width: auto;
+   height: auto;
+   margin-left: 55%;
+   margin-top: 65%;
+   padding-left: 5%;
+   padding-right: 5%;
+
+   border: 0;
+
+
+   text-align: center; 
+   background: #209bff;
+   outline: none; 
+   color: #ffffff; 
+   border-radius: 50px; 
+   cursor: pointer;
+   }
+
+
+.box [type="submit"][value="send"]{
+   position: absolute;
+   display:inline-block;
+   font-family: 'bebas';
+   font-style: normal;
+   font-size: 15px;
+
+
+   width: auto;
+   height: auto;
+   margin-left: 55%;
+   margin-top: 65%;
+   padding-left: 5%;
+   padding-right: 5%;
+
+   border: 0;
+
+
+   text-align: center; 
+   background: #209bff;
+   outline: none; 
+   color: #ffffff; 
+   border-radius: 50px; 
+   cursor: pointer;
+   }
 
 
   /*----------------------------
@@ -829,7 +879,7 @@ Testo
 .h1_storia{
     font-family: 'helvetica';
     font-style: normal;
-    font-size: 30px;
+    font-size: 23px;
     text-align: justify;
  
     margin-bottom: 4%;
@@ -845,10 +895,10 @@ Testo
  
  
   .h1_datievento{
-     font-size: 32px;
+     font-size: 22px;
   }
   .h1_infoevento{
-     font-size: 30px;
+     font-size: 20px;
   }
 
 }
